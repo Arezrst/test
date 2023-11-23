@@ -1,0 +1,67 @@
+<!-- <div class="container-fluid">
+    <div class="row">
+    <div class="col-12 bg-danger">
+    Arez
+    </div>
+    <div class="col-3 bg-info">
+    Arez
+    </div>
+    <div class="col-lg-3 col-sm-12 bg-success">
+    Arez
+    </div>
+    <div class="col-3 bg-warning">
+    Arez
+    </div>
+    <div class="col-3 bg-secondary">
+    Arez
+    </div>
+  </div>
+</div> -->
+
+<!-- <br>
+
+<div>
+  <div class="row">
+    <div class=" col-12 main bg-danger">
+      <div class="item">
+        Arez
+      </div>
+    </div>
+    <div class=" col-4 main bg-secondary">
+      <div class="item">
+        Arez
+      </div>
+    </div>
+    <div class=" col-4 main bg-warning">
+      <div class="item">
+        Arez
+      </div>
+    </div>
+    <div class=" col-4 main bg-success">
+      <div class="item">
+        Arez
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- <form [formGroup]="form">
+  <input type="text" formControlName="username">
+  <input type="password" formControlName="password">
+  <button (click)="onClick()">submit</button>
+</form> -->
+
+
+<div class="container bg-warning">
+  <p class="fw-bolder , fs-3" >Font Group</p>
+
+  <form [formGroup]="form">
+    <label for="username">User Name:</label>
+    <input class="form-control username" type="text" placeholder="username" aria-label=".username">
+    <label for="password">Password:</label>
+    <input class="form-control" type="password" placeholder="password" aria-label=".password">
+    <label for="phonenumber">Phone Number:</label>
+    <input class="form-control phonenumber" type="number" placeholder="phonenumber" aria-label=".phonenumber">
+    <button (click)="onClick()" class="btn btn-success">submit</button>
+  </form>
+</div>
